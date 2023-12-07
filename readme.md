@@ -1,7 +1,7 @@
 Zadanie 4. Liczby binarne
 =================
 
-W pliku `liczby.txt` znajduje się maksymalnie n (1 <= n <= 400000) liczb naturalnych zapisanych binarnie. Każda
+W pliku `liczby.txt` znajduje się n (1 <= n <= 400000) liczb naturalnych zapisanych binarnie. Każda
 liczba zapisana jest w osobnym wierszu. Pierwsze pięć wierszy zawiera następujące liczby:
 - 11010100111
 - 11110111111011101
