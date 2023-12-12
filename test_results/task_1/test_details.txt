@@ -1,0 +1,6 @@
+2023-12-08 15:17:41.934990;test_task_one_big;True;1.839
+2023-12-08 15:17:41.935024;test_task_one_matura_example;True;0.0
+2023-12-08 15:17:41.935026;test_task_one_matura_official;True;0.006
+2023-12-08 15:17:41.935028;test_task_one_max;True;3.25
+2023-12-08 15:17:41.935030;test_task_one_only_one;True;0.001
+2023-12-08 15:17:41.935031;test_task_one_only_zero;True;0.001
