@@ -1,0 +1,6 @@
+2023-12-14 21:44:23.849543;test_task_three_big;True;0.668
+2023-12-14 21:44:23.849559;test_task_three_matura_example;True;0.001
+2023-12-14 21:44:23.849563;test_task_three_matura_official;True;0.003
+2023-12-14 21:44:23.849565;test_task_three_max;True;15.208
+2023-12-14 21:44:23.849568;test_task_three_only_one;True;0.001
+2023-12-14 21:44:23.849570;test_task_three_only_zero;True;0.001

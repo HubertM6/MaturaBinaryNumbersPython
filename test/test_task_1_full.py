@@ -7,11 +7,11 @@ sys.path.append(str(path_root))
 import unittest
 import time
 
-from src.task_one import task_one
+from src.task_1 import task_one
 from test.test_logger import TestLogger
 
-SUMMARY_TEST_LOG_FILE = "./test_results/task_one/test_summary.txt"
-DETAILS_TEST_LOG_FILE = "./test_results/task_one/test_details.txt"
+SUMMARY_TEST_LOG_FILE = "./test_results/task_1/test_summary.txt"
+DETAILS_TEST_LOG_FILE = "./test_results/task_1/test_details.txt"
 
 
 class TaskTest(unittest.TestCase):

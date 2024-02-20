@@ -1,0 +1,6 @@
+2024-02-19 19:43:41.234248;test_task_one_big;True;3.902
+2024-02-19 19:43:41.234269;test_task_one_matura_example;True;0.011
+2024-02-19 19:43:41.234273;test_task_one_matura_official;True;0.013
+2024-02-19 19:43:41.234275;test_task_one_max;True;7.273
+2024-02-19 19:43:41.234277;test_task_one_only_one;True;0.01
+2024-02-19 19:43:41.234279;test_task_one_only_zero;True;0.001
