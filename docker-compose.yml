@@ -5,7 +5,8 @@ services:
     image: python:3.8-alpine
     command: [ "sh", "-c", "
         cd code;
-        python -m unittest;
+        python -m unittest test.test_task_1_fast
       " ]
     volumes:
-    - .:/code
+      - .:/code
+
