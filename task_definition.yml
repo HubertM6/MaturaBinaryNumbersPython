@@ -1,7 +1,7 @@
 environment:
   image: python:3.8-alpine
 
-source_file: src/task.py
+sourceFile: src/task.py
 
 tasks:
   task_1:
