@@ -29,7 +29,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (3, 2)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -41,7 +47,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (500, 123)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -53,7 +65,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (193243, 48399)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -65,7 +83,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (400001, 0)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -77,7 +101,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (1, 1)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -89,7 +119,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (0, 0)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 

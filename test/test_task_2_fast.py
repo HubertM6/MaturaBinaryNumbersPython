@@ -29,7 +29,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (3, 2)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -41,7 +47,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (1, 1)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -53,7 +65,13 @@ class TaskTest(unittest.TestCase):
 
         expected = (0, 0)
         start = time.time()
-        result = task_two(input_path)
+
+        result = None
+        try:
+            result = task_two(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 

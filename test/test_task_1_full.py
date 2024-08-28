@@ -29,7 +29,13 @@ class TaskTest(unittest.TestCase):
 
         expected = 3
         start = time.time()
-        result = task_one(input_path)
+
+        result = None
+        try:
+            result = task_one(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -41,7 +47,13 @@ class TaskTest(unittest.TestCase):
 
         expected = 422
         start = time.time()
-        result = task_one(input_path)
+
+        result = None
+        try:
+            result = task_one(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -53,7 +65,13 @@ class TaskTest(unittest.TestCase):
 
         expected = 168991
         start = time.time()
-        result = task_one(input_path)
+
+        result = None
+        try:
+            result = task_one(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -65,7 +83,13 @@ class TaskTest(unittest.TestCase):
 
         expected = 0
         start = time.time()
-        result = task_one(input_path)
+
+        result = None
+        try:
+            result = task_one(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -77,7 +101,13 @@ class TaskTest(unittest.TestCase):
 
         expected = 1
         start = time.time()
-        result = task_one(input_path)
+
+        result = None
+        try:
+            result = task_one(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
@@ -89,7 +119,13 @@ class TaskTest(unittest.TestCase):
 
         expected = 0
         start = time.time()
-        result = task_one(input_path)
+
+        result = None
+        try:
+            result = task_one(input_path)
+        except Exception:
+            ...
+
         end = time.time()
         duration = end - start
 
