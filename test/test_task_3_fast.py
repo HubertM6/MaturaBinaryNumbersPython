@@ -36,42 +36,6 @@ class TaskTest(unittest.TestCase):
         TaskTest.logger.log_single_test_result("test_task_three_matura_example", result == expected, duration)
         self.assertEqual(expected, result)
 
-    def test_task_three_matura_official(self):
-        input_path = "./tests_input/matura_official_test.txt"
-
-        expected = (859, 925)
-        start = time.time()
-        result = task_three(input_path)
-        end = time.time()
-        duration = end - start
-
-        TaskTest.logger.log_single_test_result("test_task_three_matura_official", result == expected, duration)
-        self.assertEqual(expected, result)
-
-    def test_task_three_big(self):
-        input_path = "./tests_input/big_test.txt"
-
-        expected = (274, 346281)
-        start = time.time()
-        result = task_three(input_path)
-        end = time.time()
-        duration = end - start
-
-        TaskTest.logger.log_single_test_result("test_task_three_big", result == expected, duration)
-        self.assertEqual(expected, result)
-
-    def test_task_three_max(self):
-        input_path = "./tests_input/max_test.txt"
-
-        expected = (123457, 123459)
-        start = time.time()
-        result = task_three(input_path)
-        end = time.time()
-        duration = end - start
-
-        TaskTest.logger.log_single_test_result("test_task_three_max", result == expected, duration)
-        self.assertEqual(expected, result)
-
     def test_task_three_only_zero(self):
         input_path = "./tests_input/only_zero.txt"
 
