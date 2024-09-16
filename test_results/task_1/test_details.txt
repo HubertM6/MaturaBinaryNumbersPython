@@ -1,6 +1,6 @@
-2024-08-28 21:22:59.889958;test_task_one_big;True;1.225
-2024-08-28 21:22:59.889958;test_task_one_matura_example;True;0.0
-2024-08-28 21:22:59.889958;test_task_one_matura_official;True;0.004
-2024-08-28 21:22:59.889958;test_task_one_max;True;2.156
-2024-08-28 21:22:59.889958;test_task_one_only_one;True;0.0
-2024-08-28 21:22:59.889958;test_task_one_only_zero;True;0.001
+2024-08-28 21:22:59.889958;test_task_one_big;False;-1
+2024-08-28 21:22:59.889958;test_task_one_matura_example;False;-1
+2024-08-28 21:22:59.889958;test_task_one_matura_official;False;-1
+2024-08-28 21:22:59.889958;test_task_one_max;False;-1
+2024-08-28 21:22:59.889958;test_task_one_only_one;False;-1
+2024-08-28 21:22:59.889958;test_task_one_only_zero;False;-1
